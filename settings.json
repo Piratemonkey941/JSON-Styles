@@ -1,0 +1,187 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "editor.fontLigatures": true, 
+    "editor.fontFamily": "'Fira Code iScript', Consolas, 'Courier New', monospace" , 
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": [
+              //following will be in italic (=FlottFlott)
+              "comment",
+              
+       "entity.other.attribute-name", //HTML Attributes
+              "keyword", //import, export, return…
+              "constant", //String, Number, Boolean…, this, super
+              "storage.modifier", //static keyword
+              "storage.type.class.js", //class keyword
+              "constant.numeric.css",
+              "keyword.other.unit.percentage.css",
+              "keyword.other.unit.px.css",
+              "constant.numeric.decimal.js",
+              "keyword.other.unit.s.css"
+              
+            ],
+            "settings": {
+              "fontStyle": "italic",
+              "foreground": "#00a0fd"
+              
+                
+            }
+          },
+          {
+            "scope": [
+              "entity.name.type.class.js"
+              
+            ],
+            "settings": {
+              "fontStyle": "italic",
+              "foreground": "#00fd9c"
+              
+                
+            }
+          },
+          {
+            "scope": [
+              "storage.type.class.js"
+              
+            ],
+            "settings": {
+              "fontStyle": "italic",
+              "foreground": "#00f5fd"
+              
+                
+            }
+          },
+          {
+            "scope": [
+              "constant.numeric.decimal.ts",
+              "punctuation.definition.template-expression.begin.js",
+              "punctuation.definition.template-expression.end.js",
+              "meta.template.expression.js",
+              "string.template.js",
+              "meta.block.js",
+              "meta.arrow.js",
+              "source.js",
+              "constant.language.boolean.false.ts",
+              "entity.name.type.class.ts",
+              "constant.language.boolean.true.ts"
+             
+             
+              
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#ff7b00"
+              
+                
+            }
+          },
+          {
+            "scope": [
+              "variable.other.object.ts"
+              
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#ffcfb3"
+              
+                
+            }
+          },
+          {
+            "scope": [
+              "meta.object-literal.key.ts"
+              
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#f4fc81"
+              
+                
+            }
+          },
+          {
+            "scope": [
+              "text.html.derivative"
+              
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#fffffa"
+              
+                
+            }
+          },
+          {
+            "scope": [
+              //following will be excluded from italics (VSCode has some defaults for italics)
+              "invalid",
+              "keyword.operator",
+              "constant.numeric.css",
+              "keyword.other.unit.px.css",
+              "constant.numeric.decimal.js",
+              "constant.numeric.json",
+              "storage.type.class.js"
+              // "constant.language.boolean.false.ts",
+              // "constant.language.boolean.true.ts"
+              // "entity.name.type.class.ts",
+              
+              
+             
+            ],
+            "settings": {
+              "fontStyle": ""
+            }
+          }
+        ]
+      },
+    "workbench.colorTheme": "King-Evans",
+    "workbench.preferredDarkColorTheme": "Solarized Light",
+    "workbench.colorCustomizations": {
+    
+    },
+    "launch": {
+
+      "configurations": [],
+      "compounds": []
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSaveDelay": 3000
+
+    // "editor.tokenColorCustomizations": {
+    //   "textMateRules": [
+    //       {
+    //           "scope": [
+    //            "constant.numeric.css",
+    //            "keyword.other.unit.percentage.css",
+    //            "keyword.other.unit.px.css"
+                
+    //            ],
+    //            "settings": {
+    //            "foreground": "#00a0fd",
+    //            }
+    //       },
+    //   ]
+    // }
+}
+
+
+// variable.other.object.ts
+// meta.block.ts
+// meta.method.declaration.ts
+// meta.class.ts
+// source.ts
+
+// meta.object-literal.key.ts
+// meta.object.member.ts
+// meta.objectliteral.ts
+// meta.array.literal.ts
+// meta.object.member.ts
+// meta.objectliteral.ts
+// meta.decorator.ts
+// source.ts
+
